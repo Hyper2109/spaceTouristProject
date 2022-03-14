@@ -88,3 +88,50 @@ function titan(){
     document.getElementById("p-distance").innerHTML = "1.6 Bil. Km";
     document.getElementById("p-days").innerHTML = "7 Years";
 }
+
+
+
+function p1(){
+    document.getElementById("role").innerHTML = "COMMANDER";
+    document.getElementById("name").innerHTML = "DOUGLAS HURLEY";
+    document.getElementById("description").innerHTML = "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.";
+    document.getElementById("c-img").src = "assets/crew/image-douglas-hurley.png";
+
+    document.getElementById("p1").classList.add("s-active");
+    document.getElementById("p2").classList.remove("s-active");
+    document.getElementById("p3").classList.remove("s-active");
+    document.getElementById("p4").classList.remove("s-active");
+}
+function p2(){
+    document.getElementById("role").innerHTML = "Mission Specialist";
+    document.getElementById("name").innerHTML = "MARK SHUTTLEWORTH";
+    document.getElementById("description").innerHTML = "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.";
+    document.getElementById("c-img").src = "assets/crew/image-mark-shuttleworth.png";
+
+    document.getElementById("p1").classList.remove("s-active");
+    document.getElementById("p2").classList.add("s-active");
+    document.getElementById("p3").classList.remove("s-active");
+    document.getElementById("p4").classList.remove("s-active");
+}
+function p3(){
+    document.getElementById("role").innerHTML = "PILOT";
+    document.getElementById("name").innerHTML = "VICTOR GLOVER";
+    document.getElementById("description").innerHTML = "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18. He was a crew member of Expedition 64, and served as a station systems flight engineer.";
+    document.getElementById("c-img").src = "assets/crew/image-victor-glover.png";
+
+    document.getElementById("p1").classList.remove("s-active");
+    document.getElementById("p2").classList.remove("s-active");
+    document.getElementById("p3").classList.add("s-active");
+    document.getElementById("p4").classList.remove("s-active");
+}
+function p4(){
+    document.getElementById("role").innerHTML = "FLIGHT ENGINEER";
+    document.getElementById("name").innerHTML = "ANOUSHEH ANSARI";
+    document.getElementById("description").innerHTML = "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.";
+    document.getElementById("c-img").src = "assets/crew/image-anousheh-ansari.png";
+
+    document.getElementById("p1").classList.remove("s-active");
+    document.getElementById("p2").classList.remove("s-active");
+    document.getElementById("p3").classList.remove("s-active");
+    document.getElementById("p4").classList.add("s-active");
+}
